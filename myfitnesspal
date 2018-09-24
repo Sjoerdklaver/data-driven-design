@@ -1,0 +1,8 @@
+calories = 50
+fat = 2
+carbs = 8
+sugar = 4
+
+cookies = input("How many cookies did you eat?")
+
+print("calories = " + str((cookies * calories)) + "  fat = " + str((cookies * fat)) + "  carbs = " + str((cookies * carbs)) + "  sugar = " + str((cookies * sugar)))
