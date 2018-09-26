@@ -1,0 +1,15 @@
+#Asking for the names
+name1 = input("What is the first name?")
+name2 = input("What is the second name?")
+
+#Stripping the names of possible uppercase letters and whitespaces
+name1 = name1.strip().lower()
+name2 = name2.strip().lower()
+
+#Deciding if the names are a good match or not
+if name1 == name2:
+    print("You have the same names")
+elif name1 < name2:
+    print("You will not be a good match")
+elif name1 > name2:
+    print("Your will be a good match")
