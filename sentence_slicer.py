@@ -25,5 +25,6 @@ sentence_end = sentence_length * 0.75
 sentence_start = round(sentence_start)
 sentence_end = round(sentence_end)
 
-print(sentence_split[sentence_start:sentence_end])
+complete_sentence = " ".join(sentence_split[sentence_start:sentence_end])
 
+print(complete_sentence)
